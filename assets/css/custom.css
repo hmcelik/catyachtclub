@@ -85,12 +85,12 @@ strong, b{
     font-family: "Font Awesome 5 Free";
     font-weight: 700;
     font-size: .68rem;
-    content: '\f110';
+    content: '❌';
     animation: loader 1s infinite;
 }
 .roadmap .list-dot li.completed:before{
     background: #2b56f5;
-    content: '\f00c';
+    content: '✔️';
     animation: none;
     top: 16px;
 }

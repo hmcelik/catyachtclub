@@ -2601,7 +2601,7 @@ input:-moz-placeholder, textarea:-moz-placeholder { color: rgba(40, 56, 76, 0.6)
 
 .table tr:last-child { border-bottom: none; }
 
-.table-head { font-weight: 500; color: #46bdf4; }
+.table-head { font-weight: 500; color: #ffffff; }
 
 .table-token { margin-bottom: 5px; }
 

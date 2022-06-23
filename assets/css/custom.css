@@ -129,4 +129,40 @@ strong, b{
     .roadmap-step {
         padding: 30px 20px 30px;
     }
+    .mobileroadmap{display: none;}
+}
+
+@media (max-width: 993px)
+{
+   
+    .pcroadmap{display: none;}
+}
+.gridmap{
+    display: grid;
+    grid: 1fr 1fr 1fr 1fr/1fr 1fr;
+    width: 100%;
+    margin-left: 7%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    overflow-x: hidden
+}
+.image1{
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+.image2{
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+.image3{
+    grid-row: 3/4;
+    grid-column: 1/2;
+}
+.image4{
+    grid-row: 4/5;
+    grid-column: 2/3;
+}
+html{overflow-x: hidden}
+.roadmapnew{
+    cursor: url('../images/yacht-svgrepo-com.svg');
 }

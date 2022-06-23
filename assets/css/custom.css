@@ -164,5 +164,5 @@ strong, b{
 }
 html{overflow-x: hidden}
 .roadmapnew{
-    cursor: url('../images/yacht-svgrepo-com.svg');
+    cursor: url('../images/yacht-svgrepo-com.svg'), auto;
 }

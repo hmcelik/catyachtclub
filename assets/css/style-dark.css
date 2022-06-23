@@ -514,7 +514,7 @@ h6, .h6, .fz-6 { font-size: 0.94rem; }
 
 .bg-light-grad { background-image: linear-gradient(to bottom, #fff 0%, #eff6ff 100%); }
 
-.bg-dark { background-color: #111111 !important; }
+.bg-dark {background-image: linear-gradient(to right, #967532 0%, #10122d 100%) !important; }
 
 .bg-dark.current { background-color: rgba(8, 9, 27, 0.7) !important; }
 
@@ -596,7 +596,7 @@ h6, .h6, .fz-6 { font-size: 0.94rem; }
 
 .bg-theme-grad-alternet { background-image: linear-gradient(to right, #46bdf4 0%, #7a0fff 100%) !important; }
 
-.bg-theme-dark { background-color: #111111 !important; }
+.bg-theme-dark {background-image: linear-gradient(to right, #967532 0%, #10122d 100%) !important; }
 
 .bg-theme-dark.current { background-color: rgba(8, 9, 27, 0.7) !important; }
 

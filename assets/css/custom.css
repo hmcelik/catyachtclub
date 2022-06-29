@@ -212,8 +212,8 @@ text-align:center;
 }
 /* (A) STANDARD ROW HEIGHT */
 .vwrap, .vitem {
-    height: 180px;
-    line-height: 180px;
+    height: 150px;
+    line-height: 150px;
   }
    
   /* (B) FIXED WRAPPER */
@@ -229,10 +229,10 @@ text-align:center;
   .vmove { position: relative; }
   @keyframes tickerv {
     0% { bottom: 0; } /* FIRST ITEM */
-    20% { bottom: 180px; } /* SECOND ITEM */
-    40% { bottom: 360px; } /* THIRD ITEM */
-    60% { bottom: 540px; } /* FORTH ITEM */
-    80% { bottom: 720px; } /* FORTH ITEM */
+    20% { bottom: 150px; } /* SECOND ITEM */
+    40% { bottom: 300px; } /* THIRD ITEM */
+    60% { bottom: 450px; } /* FORTH ITEM */
+    80% { bottom: 600px; } /* FORTH ITEM */
     100% { bottom: 0; } /* BACK TO FIRST */
   }
   .vmove {

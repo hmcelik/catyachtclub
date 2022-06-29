@@ -242,3 +242,6 @@ text-align:center;
     animation-timing-function: cubic-bezier(1, 0, .5, 0);
   }
   .vmove:hover { animation-play-state: paused; }
+  html{scroll-behavior: smooth;}
+  .fafa{color: white;}
+  .fafa:hover {color: #214add; border-bottom:solid 2px rgb(5, 1, 1) ;}

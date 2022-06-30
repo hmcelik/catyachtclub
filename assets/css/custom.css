@@ -130,12 +130,14 @@ strong, b{
         padding: 30px 20px 30px;
     }
     .mobileroadmap{display: none;}
+    .patates{margin-left: 10rem;}
 }
 
 @media (max-width: 993px)
 {
    
     .pcroadmap{display: none;}
+    .patates{margin-left: 0;}
 }
 .gridmap{
     display: grid;
@@ -145,6 +147,7 @@ strong, b{
     margin-bottom: 5%;
     overflow-x: hidden
 }
+
 
 .image1{
     grid-row: 1/2;

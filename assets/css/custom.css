@@ -246,5 +246,13 @@ text-align:center;
   }
   .vmove:hover { animation-play-state: paused; }
   html{scroll-behavior: smooth;}
-  .fafa{color: white;}
+  .fafa{color: white; font-family: marker;}
   .fafa:hover {color: #214add; border-bottom:solid 2px rgb(5, 1, 1) ;}
+  @font-face {
+    font-family:marker ;
+    src: url(/assets/fonts/PermanentMarker-Regular.ttf);
+  }
+  body{font-family: marker;}
+  h1{font-family: marker;}
+  h4{font-family: marker;}
+  .menu{font-family: marker;}
